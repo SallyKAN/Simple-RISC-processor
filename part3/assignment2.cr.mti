@@ -1,0 +1,83 @@
+C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/common.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/common.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package common
+-- Compiling package body common
+-- Loading package common
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/Fibonacci.vhd {1 {vcom -work work -2002 -explicit {C:\Users\admin\Desktop\ELEC3608Lab\lab5\assignment2\Fibonacci.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity Fibonacci
+-- Compiling architecture behavioral of Fibonacci
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/regfile.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/regfile.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity regfile
+-- Compiling architecture rtl of regfile
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/alu.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/alu.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/Fibonacci_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/Fibonacci_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity Fibonacci_tb
+-- Compiling architecture behavioral of Fibonacci_tb
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/dmem.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/dmem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity dmem
+-- Compiling architecture rtl of dmem
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/imem.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/imem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity imem
+-- Compiling architecture behavioral of imem
+
+} {} {}} C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/dmem_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/admin/Desktop/ELEC3608Lab/lab5/assignment2/dmem_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity dmem_tb
+-- Compiling architecture behavioral of dmem_tb
+
+} {} {}}

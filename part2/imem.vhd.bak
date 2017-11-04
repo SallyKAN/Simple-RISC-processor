@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+library work;
+use work.common.all;
+
+entity imem is
+    port(   
+        addr : in std_logic_vector(4 downto 0);
+        dout : out word);
+end imem;
+
+architecture behavioral of imem is
+type rom_arr is array(0 to 22) of word;
+
+constant mem:rom_arr:=
+    ( 
+		 x"00000793",   --0000 93070000              li      a5,0
+     x"00000693",   --0004 93060000              li      a3,0
+     x"00100713",   --0008 13071000              li      a4,1
+     x"00000613",   --000c 13060000              li      a2,0
+     x"01E00593",   --0010 9305E001              li      a1,30
+     x"00100513",   --0014 13051000              li      a0,1
+     x"01C0006F",   --0018 6F004001              j       .L2
+     x"00000013",    --001c NOP
+     
+                    --.L4:
+     x"00E606B3",   --0020 B306E600              add     a3,a2,a4
+     x"02A78263",   --0024 6382A702              beq     a5,a0,.L5
+     x"00000013",   --0028 NOP
+     x"00070613",   --002c 13060700              mv      a2,a4
+     x"00068713",   --0030 13870600              mv      a4,a3
+                    --.L2:
+     x"00178793",   --0034 93871700              add     a5,a5,1
+     x"FEB794E3",   --0038 E396B7FE              bne     a5,a1,.L4
+     x"00000013",   --003c NOP
+     x"0000F7B7",   --0040 B7F70000              li      a5,61440
+     x"00D7A023",   --0044 23A0D700              sw      a3,0(a5)
+     x"00000513",   --0048 13050000              li      a0,0
+     x"05040067",   --004c 67800000              ret
+                     
+                    --.L5
+     x"00100693",   --0050 93061000              li      a3,1
+     x"FE1FF06F",         
+     x"00000013"   --NOP
+     );
+
+begin
+	dout<=mem(conv_integer(addr));
+end behavioral;
