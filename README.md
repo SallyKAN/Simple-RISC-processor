@@ -4,7 +4,7 @@ This aims to implement a complete single-cycle processor which can execute a rea
 
 Hope it can be helpful 
 # Download 
-`<git clone https://github.com/username/Simple-RISC-processor.git>`
+`git clone https://github.com/username/Simple-RISC-processor.git`
 ## part1
 Implement a single cycle RISCV processor which can execute the program below. The program calculates the first 30 Fibonacci numbers and writes the last one to a fixed memory address.
 ## part2
